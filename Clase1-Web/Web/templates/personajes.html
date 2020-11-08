@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP| Characters</title>
+    <link rel="stylesheet" href="{{url_for('static', filename= 'personajes.css')}}">
+</head>
+<body>
+    <div class="Photo-gallery">
+        <h1 style="color: #D8BFD5;">Bienvenido</h1>
+        <h2>Estos son mis 5 lugares favoritos que quiero conocer:</h2>
+        <h2>Dubai</h2>
+        <hr style="color: #F6B4CC; width: 100%;">
+            <img src="{{url_for('static',filename = 'images/Jason.jpg')}}" alt="lugares">
+        <h2>Paris</h2>
+        <hr style="color: #F6B4CC; width: 100%;">
+            <img src="{{url_for('static',filename = 'images/Jennifer.jpg')}}" alt="lugares">
+        <h2>Santorini</h2>
+        <hr style="color: #F6B4CC; width: 100%;">
+            <img src="{{url_for('static',filename = 'images/Marilyn.jpg')}}" alt="lugares">
+        <h2>Italia</h2>
+        <hr style="color: #F6B4CC; width: 100%;">
+            <img src="{{url_for('static',filename = 'images/Nicky.jpg')}}" alt="lugares">
+        <h2>Londres</h2>
+        <hr style="color: #F6B4CC; width: 100%;">
+            <img src="{{url_for('static',filename = 'images/Will.jpg')}}" alt="lugares">
+    </div>
+    <footer>
+        <p><a href="home">Regresar al home</a></p>
+    </footer>
+</body>
+</html>

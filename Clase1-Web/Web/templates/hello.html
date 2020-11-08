@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP| hello</title>
+    <link rel="stylesheet" href="{{url_for('static',filename = 'css/hello.css')}}">
+</head>
+<body>
+    <h1>Bienvenido</h1>
+    <h2>tu ip es {{userIp}}:</h2>
+    <h2>Tu Emprendimiento es : {{Chocolates}}</h2>
+    <img src="{{url_for('static',filename = 'images/ch.png')}}" alt="Foto Choklad">
+</body>
+</html>

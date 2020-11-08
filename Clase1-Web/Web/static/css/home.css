@@ -1,0 +1,68 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+	background: #d0d9d6;
+	padding-top: 15%;
+  text-align: center;
+}
+.button1{
+	/* estilos tipograficos */
+	
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+	/* padding, margin y borde */
+	
+  padding: 20px 40px;
+	margin-right: 30px;
+	cursor: pointer;
+	border: 0;
+  border-radius: 50px;
+
+	/* propiedades para la animacion  */
+	
+	transition: all 0.20s linear;
+	-webkit-transition: all 0.20s linear;
+	-moz-transition: all 0.20s linear;
+	position: relative;
+	bottom: 0;
+}
+.button2{
+	/* estilos tipograficos */
+	
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+	/* padding, margin y borde */
+	
+  padding: 20px 40px;
+	margin-right: 30px;
+	cursor: pointer;
+	border: 0;
+  border-radius: 50px;
+
+	/* propiedades para la animacion  */
+	
+	transition: all 0.20s linear;
+	-webkit-transition: all 0.20s linear;
+	-moz-transition: all 0.20s linear;
+	position: relative;
+  bottom: 0;
+
+}
+.boton1{
+	background: #04a8bf;
+	box-shadow: 0px 5px 0 #0491a5;
+}
+.boton2{
+	box-shadow: 0px 5px 0 #7e8783;	
+	background: #9ca6a2;
+}
