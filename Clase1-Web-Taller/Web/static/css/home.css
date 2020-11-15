@@ -2,8 +2,8 @@ html{
   scroll-behavior: smooth;
 }
 
-body{
-	background: #d0d9d6;
+.body{
+	background: #F9CCBF;
 	padding-top: 15%;
   text-align: center;
 }
@@ -65,4 +65,9 @@ body{
 .boton2{
 	box-shadow: 0px 5px 0 #7e8783;	
 	background: #9ca6a2;
+}
+
+.h1{
+    text-transform: uppercase;
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
 }

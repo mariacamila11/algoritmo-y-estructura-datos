@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP| lugares</title>
+    <link rel="stylesheet" href="{{url_for('static', filename= 'lugares.css')}}">
+</head>
+<body>
+    <main class="Photo-gallery-img">
+        <h1 style="color: #D8BFD5;">Bienvenido</h1>
+        <h1 style="color: #D8BFD5;" >Estos son mis 5 personajes favoritos:</h1>
+        <h1 style="color: #F6B4CC; width: 100%;">Jason Statham</h1>
+        <hr style="color: #F6B4CC; width: 100%;">
+            <img src="{{url_for('static',filename = 'images/Jason.jpg')}}" alt="personajes">
+        <h1 style="color: #F6B4CC; width: 100%;">Jennifer Aniston</h1>
+        <hr style="color: #F6B4CC; width: 100%;">
+            <img src="{{url_for('static',filename = 'images/Jennifer.jpg')}}" alt="personajes">
+        <h1 style="color: #F6B4CC; width: 100%;">Marylin Monroe </h1>
+        <hr style="color: #F6B4CC; width: 100%;">
+            <img src="{{url_for('static',filename = 'images/Marilyn.jpg')}}" alt="personajes">
+        <h1 style="color: #F6B4CC; width: 100%;">Nicky Jam</h1>
+        <hr style="color: #F6B4CC; width: 100%;">
+            <img src="{{url_for('static',filename = 'images/Nicky.jpg')}}" alt="personajes">
+            <hr style="color: #F6B4CC; width: 100%;">
+        <h1 style="color: #F6B4CC; width: 100%;">Will Smith</h1>
+            <img src="{{url_for('static',filename = 'images/Will.jpg')}}" alt="personajes">
+    </main>
+</body>
+    <footer>
+        <p><a href="home">Regresar al home</a></p>
+    </footer>
+</html>

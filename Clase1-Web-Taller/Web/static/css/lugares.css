@@ -1,4 +1,4 @@
-body{
+.body{
     background-color: #F9D2D2;
     color: #A2A2A2;
     padding: 0;
@@ -7,7 +7,7 @@ body{
     text-align: center;
 }
 
-.photo-gallery img{
+.photo-gallery-img{
     display: block;
     margin: auto;
     margin-bottom: 3.5%;
@@ -18,7 +18,7 @@ body{
     box-shadow: 0px 0px 50px #F6B4CC;
 }
 
-h2{
+.h1{
     text-transform: uppercase;
     font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
 }

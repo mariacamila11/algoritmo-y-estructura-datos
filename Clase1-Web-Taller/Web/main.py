@@ -1,5 +1,4 @@
-
-from flask import Flask, request, make_response, redirect, render_template, url_for
+sfrom flask import Flask, request, make_response, redirect, render_template, url_for
 
 # se crea un objeto del tipo app
 app = Flask(__name__)
@@ -34,3 +33,8 @@ def personajes():
 
 if __name__ == '__main__':
     app.run()
+
+
+
+
+
