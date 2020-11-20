@@ -7,17 +7,6 @@ body{
     text-align: center;
 }
 
-.photo-gallery-img{
-    display: block;
-    margin: auto;
-    margin-bottom: 3.5%;
-    object-fit: cover;
-    object-position: top;
-    width: 600px;
-    height: auto;
-    box-shadow: 0px 0px 50px #F6B4CC;
-}
-
 h1{
     text-transform: uppercase;
     font-family:Helvetica,Futura,Arial,Verdana,sans-serif;

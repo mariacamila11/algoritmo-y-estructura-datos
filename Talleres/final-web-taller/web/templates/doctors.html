@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP| lugares</title>
+    <link rel="stylesheet" href="{{url_for('static', filename= 'doctors.css')}}">
+</head>
+<body>
+    <main class="Photo-gallery-img">
+        <h1 style="color: #75c8f1;">Bienvenido</h1>
+        <h1 style="color: #0080ff;" >Directorio de medicos:</h1>
+        <h1 style="color: #0080ff; width: 100%;">Alex Karev-Pediatra</h1>
+        <hr style="color: #0080ff; width: 100%;">
+            <img class="Photo-gallery-img" src="{{url_for('static',filename = 'images/alex.jpg')}}" alt="doctors">
+        <h1 style="color: #0080ff; width: 100%;">Callie Torres-oftalmologa</h1>
+        <hr style="color: #0080ff; width: 100%;">
+            <img class="Photo-gallery-img" src="{{url_for('static',filename = 'images/callie.jpg')}}" alt="doctors">
+        <h1 style="color: #0080ff; width: 100%;">Meredith Grey-Cardiologa </h1>
+        <hr style="color: #0080ff; width: 100%;">
+            <img class="Photo-gallery-img" src="{{url_for('static',filename = 'images/meredith.jpg')}}" alt="doctors">
+        <h1 style="color: #0080ff; width: 100%;">Richard Webber-Internista</h1>
+        <hr style="color: #0080ff; width: 100%;">
+            <img class="Photo-gallery-img" src="{{url_for('static',filename = 'images/richard.jpg')}}" alt="doctors">
+        <hr style="color: #0080ff; width: 100%;">
+        <h1 style="color: #0080ff; width: 100%;">Maria Camila Herrera Mesa-Neurologa</h1>
+            <img class="Photo-gallery-img" src="{{url_for('static',filename = 'images/yo.jpg')}}" alt="doctors">
+    </main>
+</body>
+    <footer>
+        <p><a href="home">Regresar al home</a></p>
+    </footer>
+</html>

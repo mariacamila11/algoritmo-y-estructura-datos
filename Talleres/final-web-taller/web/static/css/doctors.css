@@ -1,5 +1,5 @@
 body{
-    background-color: #F9D2D2;
+    background-color: #75c8f1;
     color: #A2A2A2;
     padding: 0;
     margin: 0;
@@ -15,7 +15,7 @@ body{
     object-position: top;
     width: 600px;
     height: auto;
-    box-shadow: 0px 0px 50px #F6B4CC;
+    box-shadow: 0px 0px 50px #0080ff;
 }
 
 h1{
