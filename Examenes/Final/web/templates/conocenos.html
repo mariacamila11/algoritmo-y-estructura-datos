@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP| lugares</title>
+    <link rel="stylesheet" href="{{url_for('static', filename= 'conocenos.css')}}">
+</head>
+<body>
+    <main class="container-fluid" id='main'>
+        <h1 style="color: #75c8f1;">Bienvenido</h1>
+        <h1 style="color: #0080ff;" >Conoce nuestras instalaciones</h1>
+        <h1 style="color: #0080ff; width: 100%;">Sede Principal</h1>
+        <hr style="color: #0080ff; width: 100%;">
+            <img class="Photo-gallery-img" src="{{url_for('static',filename = 'images/ces.jpg')}}" alt="services">
+        <h1 style="color: #0080ff; width: 100%;">
+            • Consulta general y especializada
+        </h1>
+        <hr style="color: #0080ff; width: 100%;">
+            <img class="Photo-gallery-img" src="{{url_for('static',filename = 'images/consulta.jpg')}}" alt="services">
+        <h1 style="color: #0080ff; width: 100%;">  
+            • Urgencias 24 horas</h1>
+        <hr style="color: #0080ff; width: 100%;">
+            <img class="Photo-gallery-img" src="{{url_for('static',filename = 'images/urgencias.jpg')}}" alt="services">
+        <h1 style="color: #0080ff; width: 100%;"> 
+            • Unidad de dermatología</h1>
+        <hr style="color: #0080ff; width: 100%;">
+            <img class="Photo-gallery-img" src="{{url_for('static',filename = 'images/dermatologia.jpg')}}" alt="services">
+        <hr style="color: #0080ff; width: 100%;">
+        <h1 style="color: #0080ff; width: 100%;">
+            • Unidad de Cuidados Especiales
+            </h1>
+            <img class="Photo-gallery-img" src="{{url_for('static',filename = 'images/uce.jpg')}}" alt="services">
+    </main>
+</body>
+    <footer>
+        <p><a a class='boton1' href="home">Regresar al home</a></p>
+    </footer>
+</html>
